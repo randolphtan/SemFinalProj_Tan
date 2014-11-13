@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.MyApp.prototype_tan" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/mainarch"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MyMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".UstThen"
+            android:label="@string/title_activity_ust_then" >
+        </activity>
+        <activity
+            android:name=".UstNow"
+            android:label="@string/title_activity_ust_now" >
+        </activity>
+        <activity
+            android:name=".sixty"
+            android:label="1960s" >
+        </activity>
+        <activity
+            android:name=".seventy"
+            android:label="1970s" >
+        </activity>
+        <activity
+            android:name=".eighty"
+            android:label="1980s" >
+        </activity>
+        <activity
+            android:name=".ninety"
+            android:label="1990s" >
+        </activity>
+        <activity
+            android:name=".thousand"
+            android:label="2000s" >
+        </activity>
+    </application>
+
+</manifest>

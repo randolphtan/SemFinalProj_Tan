@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">400 Shades of UST</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ust_then">Ust Then</string>
+    <string name="title_activity_ust_now">Ust Now</string>
+    <string name="title_activity_sixty">sixty</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_seventy">seventy</string>
+    <string name="title_activity_eighty">eighty</string>
+    <string name="title_activity_ninety">ninety</string>
+    <string name="title_activity_thousand">thousand</string>
+
+</resources>

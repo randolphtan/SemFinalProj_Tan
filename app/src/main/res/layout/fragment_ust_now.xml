@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:label="400 Shades of UST"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.MyApp.prototype_tan.UstNow$PlaceholderFragment"
+    android:background="@drawable/abc_ab_bottom_solid_dark_holo">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/usthospital"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:src="@drawable/benavides2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UST NOW"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:textColor="#ffffca00"
+        android:textSize="30dp" />
+</RelativeLayout>

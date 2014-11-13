@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:label="400 Shades of UST"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.MyApp.prototype_tan.sixty$PlaceholderFragment"
+    android:background="@drawable/abc_ab_bottom_solid_dark_holo">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THROWBACK 1960s"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="30dp"
+        android:textColor="#ffffca00" />
+
+    <ImageView
+        android:layout_width="800dp"
+        android:layout_height="320dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/ic_sixty"
+        android:layout_marginRight="105dp"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView" />
+
+    <ImageView
+        android:onClick="home"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageView3"
+        android:src="@drawable/hehehemain"
+        android:clickable="true"
+        android:layout_marginLeft="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:text="Medicine building in 1960s."
+        android:textColor="#ffacacac"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignRight="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginTop="29dp" />
+
+</RelativeLayout>
